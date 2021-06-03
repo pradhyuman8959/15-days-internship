@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rt"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:text="Registartion Form"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="154dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="User Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/etgender"
+        android:ems="10"
+        android:textStyle="bold"
+        android:inputType="none"
+        android:textColor="@color/white"
+        android:hint="Enter Your Gender"
+        android:textColorHint="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:id="@+id/etemail"
+        android:hint="Enter Email"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:textColor="@color/white"
+        android:layout_marginTop="300dp"
+        android:hint="Enter Password"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etphone"
+        android:hint="Enter Mobile No"
+        android:layout_marginTop="350dp"
+        android:textStyle="bold"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etHobbies"
+        android:hint="Enter Hobbies"
+        android:textStyle="bold"
+        android:layout_marginTop="400dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="Submit" />
+
+</RelativeLayout>
